@@ -29,6 +29,12 @@ public class JCadastroJogador extends JFrame{
        add(lblNome);
        add(txtNome);
 
+       setLocationRelativeTo(null);
+       JLabel lblNickname = new JLabel("Nickname");
+       JTextField txtNickname = new JTextField(20);
+       add(lblNickname);
+       add(txtNickname);
+
 
        
         //criação do botão cadastrar
